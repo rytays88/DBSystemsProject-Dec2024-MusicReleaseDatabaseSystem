@@ -27,11 +27,13 @@ The database also implements triggers to automatically maintain version history 
 
 ## Project Structure
 
+```text
 MusicDatabase/
 │
 ├── schema.sql          # Database schema and table creation
 ├── queries.sql         # Example queries and triggers
 ├── README.md           # Project documentation
+```
 
 ---
 
@@ -77,7 +79,6 @@ GROUP BY g.genre_name
 ORDER BY total_songs DESC;
 ```
 
-```markdown
 ## Authors
 
 Group 11 – CS 3743
